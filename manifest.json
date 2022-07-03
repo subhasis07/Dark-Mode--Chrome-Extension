@@ -1,0 +1,23 @@
+{
+    "name" : "darkmode.io",
+    "description" : "converting light to dark & vice versa",
+    "version" : "0.0.1",
+    "manifest_version": 2,
+    "background" :
+    {
+        "scripts": [
+            "popup.js"
+        ],
+        "persisten" : true
+    },
+    "browser_action":{
+        "default_title" : "darkmode.io",
+        "default_popup" : "popup.html"
+    
+    },
+    "permissions" :[
+        "https://*/*",
+        "http://*/*",
+        "tabs"
+    ]
+}
